@@ -25,3 +25,6 @@ Subsequently, for the examination of the correlation between frequency of cannab
 In order to evaluate the magnitude of the current cannabis use, smoking quantity was taken into consideration. Thus, from the quantity of joints smoked per day when using the most (quantitative variable), a new secondary variable was created (categorical variable), that estimates on average the quantity of joints smoked per month, by multiplying the number of joints smoked per day with the number of days an individual smoked per month.      
 
 Last but not least, a categorical two-point scale (1.”Yes”, 2.”No”) lurking variable (”Any family members or close friend died in the last 12 months.”) was taken into account, in order to examine if this factor moderates the association between cannabis use and both major depression and general anxiety diagnoses in the last 12 months.
+
+## References
+[Bridget F. Grant, Ph.D., Ph.D., and Deborah A. Dawson, Ph.D. Introduction to the National Epidemiologic Survey on Alcohol and Related Conditions.](https://pubs.niaaa.nih.gov/publications/arh29-2/74-78.pdf)
