@@ -19,4 +19,24 @@ A Chi Square test of independence revealed that among cannabis users aged betwee
 
 In the bivariate graph (C->C) presented above, we can see the correlation between frequency of cannabis use (explanatory variable) and major depression diagnosis in the past year (response variable). Obviously, we have a left-skewed distribution, which indicates that the more an individual (18-30) smoked cannabis, the better were the chances to have experienced depression in the last 12 months.
 
-![out4]()
+![out4](https://github.com/Gkontopodis/Data-Analysis-Tools/blob/master/Assignment%20Week%204/Output%20-%20Graphs/out4.png)
+
+In the first place, for the moderating variable equal to 1, which is those whose a family member or a close friend died in the last 12 months **(sub1)**, a Chi Square test of independence revealed that among cannabis users aged between 18 and 30 years old, the frequency of cannabis use (explanatory variable) and past year depression diagnosis (response variable) were not significantly associated, X2 =4.61, 9 df, p=0.86. As a result, since the chi-square value is quite small and the p-value is significantly large, we can assume that there is no statistical relationship between these two variables, when taking into account the subgroup of individuals who lost a family member or a close friend in the last 12 months.
+
+![graph1](https://github.com/Gkontopodis/Data-Analysis-Tools/blob/master/Assignment%20Week%204/Output%20-%20Graphs/out5.png)
+
+In the bivariate line graph (C->C) presented above, we can see the correlation between frequency of cannabis use (explanatory variable) and major depression diagnosis in the past year (response variable), in the subgroup of individuals whose a family member or a close friend died in the last 12 months **(sub1)**. In fact, the direction of the distribution (fluctuation) does not indicate a positive relationship between these two variables, for those who experienced a family/close death in the past year.
+
+![out6](https://github.com/Gkontopodis/Data-Analysis-Tools/blob/master/Assignment%20Week%204/Output%20-%20Graphs/out6.png)
+
+Subsequently, for the moderating variable equal to 2, which is those whose a family member or a close friend did not die in the last 12 months **(sub2)**, a Chi Square test of independence revealed that among cannabis users aged between 18 and 30 years old, the frequency of cannabis use (explanatory variable) and past year depression diagnosis (response variable) were significantly associated, X2 =37.02, 9 df, p=2.6e-05 (p-value is written in scientific notation). As a result, since the chi-square value is quite large and the p-value is significantly small, we can assume that there is a positive relationship between these two variables, when taking into account the subgroup of individuals who did not lose a family member or a close friend in the last 12 months.
+
+![graph2](https://github.com/Gkontopodis/Data-Analysis-Tools/blob/master/Assignment%20Week%204/Output%20-%20Graphs/out7.png)
+
+In the bivariate line graph (C->C) presented above, we can see the correlation between frequency of cannabis use (explanatory variable) and major depression diagnosis in the past year (response variable), in the subgroup of individuals whose a family member or a close friend did not die in the last 12 months **(sub2)**. Obviously, the direction of the distribution indicates a positive relationship between these two variables, which means that the frequency of cannabis use directly affects the proportions of major depression, regarding the individuals who did not experience a family/close death in the last 12 months.
+
+## Summary
+
+It seems that both the direction and the size of the relationship between frequency of cannabis use and major depression diagnosis in the last 12 months, is heavily affected by a death of a family member or a close friend in the same period. In other words, when the incident of a family/close death is present, the correlation is considerably weak, whereas when it is absent, the correlation is significantly strong and positive. Thus, the third variable moderates the association between cannabis use frequency and major depression diagnosis.
+
+
