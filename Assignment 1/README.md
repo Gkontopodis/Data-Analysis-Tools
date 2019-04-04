@@ -14,3 +14,11 @@ When testing the association between the number of joints smoked per day (quanti
 
 ![out3](https://github.com/Gkontopodis/Data-Analysis-Tools/blob/master/Assignment%201/Screenshots/out3.png)
 ![out4](https://github.com/Gkontopodis/Data-Analysis-Tools/blob/master/Assignment%201/Screenshots/out4.png)
+![scshot](https://github.com/Gkontopodis/Data-Analysis-Tools/blob/master/Assignment%201/Screenshots/sc6.png)
+
+ANOVA revealed that among daily, cannabis users aged 18 to 30 years old (subsetc5), frequency of cannabis use (collapsed into 10 ordered categories, which is the categorical explanatory variable) and number of joints smoked per day (quantitative response variable) were relatively associated, F (9, 2349)=52.65, p=1.76e-87<0.05 (p value is written in scientific notation). Post hoc comparisons of mean number of joints smoked per day by pairs of cannabis use frequency categories, revealed that those individuals using cannabis every day (or nearly every day) reported smoking significantly more joints on average daily (every day: Mean=5.66, s.d. ±7.8, nearly every day: Mean=3.73, s.d. ±4.46) compared to those using 1 to 2 times per weak (Mean=1.85, s.d. ±1.81), or less. As a result, there are some pair cases in which using frequency and smoking quantity of cannabis, are positive correlated.
+
+![out5](https://github.com/Gkontopodis/Data-Analysis-Tools/blob/master/Assignment%201/Screenshots/out5.png)
+
+In order to conduct post hoc paired comparisons in the context of my ANOVA, examining the association between frequency of cannabis use and number of joints smoked per day when using the most, I used the Tukey HSD test. The table presented above, illustrates the differences in smoking quantity for each cannabis use frequency group and help us identify the comparisons in which we can reject the null hypothesis and accept the alternate, that is, in which reject equals true. In cases where reject equals false, rejecting the null hypothesis resulting in inflating a type 1 error.
+
