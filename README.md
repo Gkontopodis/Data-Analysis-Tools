@@ -1,13 +1,14 @@
 # Data Analysis Tools
 This is a part of my weekly assignments for the second course of [Data Analysis and Interpretation Specialization](https://www.coursera.org/specializations/data-analysis), offered by Wesleyan University on Coursera. For the grading purposes of the course, the assignments were initially uploaded on [Tumblr](https://gkontopas.tumblr.com/post/183023678322/assignmentweek-1-hypothesis-testing-and-anova).
 
-It is an attempt to develop and test hypotheses by becoming familiar with a variety of statistical tests, such as ANOVA, Chi-Square Test and Pearson Correlation analysis, based on existing data (U.S. National Epidemiological Survey on Alcohol and Related Conditions (NESARC).
+It is an attempt to develop and test hypotheses with a variety of statistical tools, such as ANOVA, Chi-Square Test and Pearson Correlation analysis, based on existing data (U.S. National Epidemiological Survey on Alcohol and Related Conditions (NESARC).
 
-For the code and the output i used **Spyder (IDE)**.
-
-## How to run
-### Requirements
-Requires **python 2.7+**.
+For the code and the output i used **Spyder (IDE)**. Requires **python 2.7+**.
+## Course 4-Week Syllabus
+1. Hypothesis Testing and ANOVA
+2. Chi Square Test of Independence
+3. Pearson Correlation
+4. Exploring Statistical Interactions
 
 ## Sample
 The data was provided by the National Epidemiological Survey on Alcohol and Related Conditions (NESARC), which was conducted in a random sample of 43,093 U.S. adults and designed to determine the magnitude of alcohol use and psychiatric disorders. Sample size is important because the larger the sample size, the more accurate the findings. NESARC’s unusually large sample size also made it possible to achieve stable estimates of even rare conditions. NESARC participants came from all walks of life and a variety of ages, and the level of analysis studied was individual. They represented all regions of the United States and included residents of the District of Columbia, Alaska, and Hawaii. In addition to sampling individuals living in traditional households, NESARC investigators questioned military personnel living off base and people living in a variety of group accommodations such as boarding or rooming houses and college quarters. More specifically, the sample consists of 24,575 (57.1%) males and 18,518 (42.9%) females, among of whom 9,535 (22.13%) were aged between 18 and 30 years old. The data analytic subset, examined in this study, includes individuals aged between 18 and 30 years old who reported using cannabis at least once in their life (N=2,412).
@@ -20,9 +21,13 @@ Major depression and general anxiety diagnoses (categorical response variables),
 
 The response format of the explanatory variable (frequency of cannabis use) was a ten-point scale, since variable was binned into 10 categories (1.“Every day”, 2.”Nearly every day”, 3.”3-4 times a week”, 4.“1-2 times a week”, 5.“2-3 times a month”, 6.“Once a month”, 7.“7-11 times a year”, 8.“3-6 times a year”, 9.“2 times a year”, 10.“Once a year”) and participants could choose an answer among these response options. As far as major depression and general anxiety diagnoses (response variables) are concerned, they were coded dichotomously (two-point scale), which indicates options that were absolutely opposite to each other (1.”Yes”, 2.”No”).
 
-Subsequently, for the examination of the correlation between frequency of cannabis use (explanatory variable) and such psychiatric disorders (response variables), a Chi-square Test of Independence (C->C) was used, so that the chi-square and p values were measured. Furthermore, in order to determine which frequency groups are different from the others, post hoc pair comparisons were performed, using Bonferroni Adjustment approach, since the explanatory variable had more than 2 levels. In addition, the association was visualized graphically, using a bivariate bar chart.
+In order to evaluate the magnitude of the current cannabis use, smoking quantity was taken into consideration. Thus, from the quantity of joints smoked per day when using the most (quantitative variable), a new secondary variable was created (categorical variable), that estimates on average the quantity of joints smoked per month, by multiplying the number of joints smoked per day with the number of days an individual smoked per month.   
 
-In order to evaluate the magnitude of the current cannabis use, smoking quantity was taken into consideration. Thus, from the quantity of joints smoked per day when using the most (quantitative variable), a new secondary variable was created (categorical variable), that estimates on average the quantity of joints smoked per month, by multiplying the number of joints smoked per day with the number of days an individual smoked per month.      
+An ANOVA (C->Q) was used, for the examination of the relationship between the psychiatric disorders (categorical explanatory variables) and cannabis use quantity (quantitative response variable).
+
+For the correlation between frequency of cannabis use (explanatory variable) and such psychiatric disorders (response variables), a Chi-square Test of Independence (C->C) was used, so that the chi-square and p values were measured. Furthermore, in order to determine which frequency groups are different from the others, post hoc pair comparisons were performed, using Bonferroni Adjustment approach, since the explanatory variable had more than 2 levels. In addition, the association was visualized graphically, using a bivariate bar chart.
+
+Subsequently, the hypothesis was refined and Pearson Correlation analysis (Q->Q) was used, to examine the association between the age when the individuals began using cannabis the most (quantitative explanatory variable) and the age when they experienced the first episode of major depression and general anxiety (quantitative response, variable). The results were also visualized with scatterplots. 
 
 Last but not least, a categorical two-point scale (1.”Yes”, 2.”No”) lurking variable (”Any family members or close friend died in the last 12 months.”) was taken into account, in order to examine if this factor moderates the association between cannabis use and both major depression and general anxiety diagnoses in the last 12 months.
 
