@@ -1,5 +1,5 @@
 # Data Analysis Tools
-This is a part of my weekly assignments for the second course of [Data Analysis and Interpretation Specialization](https://www.coursera.org/specializations/data-analysis), offered by Wesleyan University on Coursera. For the grading purposes of the course, the assignments were initially uploaded on [Tumblr](https://gkontopas.tumblr.com/post/183023678322/assignmentweek-1-hypothesis-testing-and-anova).
+This is an introduction for the second course of [Data Analysis and Interpretation Specialization](https://www.coursera.org/specializations/data-analysis), offered by Wesleyan University on Coursera. For the grading purposes of the course, the assignments were initially uploaded on [Tumblr](https://gkontopas.tumblr.com/post/183023678322/assignmentweek-1-hypothesis-testing-and-anova).
 
 It is an attempt to develop and test hypotheses with a variety of statistical tools, such as ANOVA, Chi-Square Test and Pearson Correlation analysis, working on existing data (U.S. National Epidemiological Survey on Alcohol and Related Conditions (NESARC).
 
